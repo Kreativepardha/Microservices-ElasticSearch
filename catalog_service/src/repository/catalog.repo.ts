@@ -2,7 +2,7 @@ import { ICatalogRepo } from "../interface/catelogRepoInterface";
 import { Product } from "../models/product.model";
 
 export class CatalogRepo implements ICatalogRepo {
-    _prisma: Prisma
+  _prisma: Prisma;
   create(data: Product): Promise<Product> {
     throw new Error("Method not implemented.");
   }
