@@ -27,7 +27,7 @@ The purpose of this project is to demonstrate how to integrate Elasticsearch int
 - **Elasticsearch**: Search engine used for product search and management.
 - **TypeScript**: Type safety and static typing.
 - **Jest**: Testing framework.
-- **pnpm**: Fast, disk space-efficient package manager.
+- **yarn**: Fast, disk space-efficient package manager.
 - **Docker**: Containerization platform for deploying Elasticsearch locally.
 
 ## Features
@@ -42,7 +42,7 @@ The purpose of this project is to demonstrate how to integrate Elasticsearch int
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/) (v16+)
-- [pnpm](https://pnpm.io/)
+- [yarn](https://yarn.io/)
 - [Docker](https://www.docker.com/) (for running Elasticsearch)
 - [Elasticsearch](https://www.elastic.co/elasticsearch/)
 
@@ -56,7 +56,7 @@ The purpose of this project is to demonstrate how to integrate Elasticsearch int
 
 2. **Install dependencies**:
    ```bash
-   pnpm install
+   yarn install
    ```
 
 3. **Run Elasticsearch in Docker**:
@@ -81,7 +81,7 @@ The purpose of this project is to demonstrate how to integrate Elasticsearch int
 To start the application in development mode:
 
 ```bash
-pnpm run dev
+yarn run dev
 ```
 
 This will start the Express server, connect to Elasticsearch, and expose the API endpoints.
@@ -91,7 +91,7 @@ This will start the Express server, connect to Elasticsearch, and expose the API
 To run unit and integration tests, use the following command:
 
 ```bash
-pnpm run test
+yarn run test
 ```
 
 The tests include:
@@ -102,7 +102,7 @@ The tests include:
 You can check the code coverage for the tests as well:
 
 ```bash
-pnpm run test:coverage
+yarn run test:coverage
 ```
 
 ## API Endpoints
