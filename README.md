@@ -234,5 +234,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## TDD [ Test Driven Develoment ]
 Following TDD principle and clean coding
 
-## SOLID PRINCIPLES too
-using nodejs clean code layered architecture
+## SOLID PRINCIPLES 
